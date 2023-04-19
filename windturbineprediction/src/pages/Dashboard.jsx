@@ -52,7 +52,7 @@ const BarGraph = () => {
 
   const handleSubmit = () => {
     setIsLoading(true);
-    axios.post('https://wind-turbine-prediction.netlify.app/forecast-and-predict-6-days', {
+    axios.post('https://wind-api.onrender.com/forecast-and-predict-6-days', {
       lat: latitude,
       lng: longitude,
       apikey: "8168408ee3a0dfcbe3a645396b073bc4"
