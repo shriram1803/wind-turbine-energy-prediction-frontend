@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, CardActions, CardContent, TextField, Button, CircularProgress } from '@material-ui/core';
+import { Card, CardActions, CardContent, TextField, Button, CircularProgress } from '@mui/material';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Cell, ResponsiveContainer } from 'recharts';
 import axios from 'axios';
 
